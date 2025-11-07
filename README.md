@@ -27,9 +27,9 @@ git clone https://github.com/apple9710/pdwc.git
 - 터미널에서
 
 ```bash
-  // [main] 이건 브랜치명
-  // 브랜치가 다를 경우 다른거 입력
-  // 예시) git pull origin gived0
+  ## [main] 이건 브랜치명
+  ## 브랜치가 다를 경우 다른거 입력
+  ## 예시) git pull origin gived0
   git pull origin main
 ```
 
@@ -38,17 +38,17 @@ git clone https://github.com/apple9710/pdwc.git
 - 귀찮은데 다 업데이트 하기
 
 ```bash
-  // 모든 파일 스테이징 - 올리기 전 대기 상태
+  ## 모든 파일 스테이징 - 올리기 전 대기 상태
   git add .
 ```
 
 ```bash
-  //커밋 메세지는 아래 커밋 규칙을 지키면서 작성 하는 연습을 합시다. - 저도 잘 안지켜요
+  ## 커밋 메세지는 아래 커밋 규칙을 지키면서 작성 하는 연습을 합시다. - 저도 잘 안지켜요
   git commit -m '커밋메세지'
 ```
 
 ```bash
-  // 보통은 메인 보다는 dev 브랜치를 만들어서 따로 관리 합니다.
+  ## 보통은 메인 보다는 dev 브랜치를 만들어서 따로 관리 합니다.
   git push origin main
 ```
 
